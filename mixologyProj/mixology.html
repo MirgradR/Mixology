@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable = no, initial – scale = 1.0, maximum – scale = 1.0, minimum – scale = 1.0">
+        <title>Capture - Landing Page Template</title>
+        <link rel="stylesheet" href="mixology.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="conteiner">
+                <div class="header__top">
+                    <img src="images/mixology-logo.svg" class="header__logo" alt="logo">
+                    <div class="header__link link">
+                        <p class="header__link-text"><a href="#" class="popup-link">Get in contact</a> if you have any questions</p>
+                    </div>   
+                </div>
+                <div class="header__main">
+                    <div class="header__main-title">
+                        <h2>Join the most exclusive Mixology course!</h2>
+                        <p>This is a lead capture oriented landing page template, hence the name.</p>
+                    </div>
+                    <button class="popup-link header__main-button">Request Access</button>
+                </div>
+            </div>
+        </header>
+        <section class="review">
+            <div class="conteiner">
+                <div class="review__block">
+                    <img src="images\mixology-avatar.png" alt="avatar">
+                    <div class="review__block-quote">
+                        <blockquote>
+                            “Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum.”
+                        </blockquote>
+                        <cite>Sharon V. Collins, Morrison</cite>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <main class="main">
+            <div class="conteiner">
+                <div class="main__features">
+                    <div class="main__features-description">
+                        <div class="main__features-title">
+                            <p class="mini-title">The main features</p>
+                            <h2>Highlight your main selling points in this section</h2>
+                            <p class="mini-decript">Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum fugit, sed quia magni dolores eos qui ratione sequi nesciunt.</p> 
+                        </div>
+                        <div class="main__features-features">
+                            <ul class="features-list">
+                                <li class="features-item mail-item">
+                                    <img src="images\mixo-icons\IconMail.svg">
+                                    <h3>Aquire leads with ease</h3>
+                                    <p>Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum fugit, sed quia magni.</p>
+                                </li>
+                                <li class="features-item anchor-item">
+                                    <img src="images\mixo-icons\Icon - Anchor.svg">
+                                    <h3>Beautiful and responsive</h3>
+                                    <p>Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum fugit, sed quia magni.</p>
+                                </li>
+                            </ul>   
+                        </div>    
+                    </div>
+                    <img src="images\big-feature-image-2.png" alt="image-coctail" class="img-coctail">
+                </div>
+            </div>
+        </main>
+        <section class="features__grid">
+            <div class="conteiner">
+                <div class="features__grid-items">
+                    <ul class="features-list">
+                        <li class="features-item award-item">
+                            <img src="images\mixo-icons\Icon - Award.svg">
+                            <h3>Stand out with great style</h3>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum fugit, sed quia magni.</p>
+                        </li>
+                        <li class="features-item chart-item">
+                            <img src="images\mixo-icons\Icon - Chart.svg">
+                            <h3>Convert visitors into leads</h3>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum fugit, sed quia magni.</p>
+                        </li>
+                        <li class="features-item command-item">
+                            <img src="images\mixo-icons\Icon - Command.svg">
+                            <h3>Easy to customise</h3>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum fugit, sed quia magni.</p>
+                        </li>
+                        <li class="features-item copy-item">
+                            <img src="images\mixo-icons\Icon - Copy.svg">
+                            <h3>Create and test variations</h3>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit asperna netsum lorisum fugit, sed quia magni.</p>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="conteiner">
+                <div class="footer__link link">
+                    <p class="header__link-text"><a href="#" class="popup-link">Get in contact</a> if you have any questions</p>
+                </div>
+            </div>
+        </footer>
+        <div class="popup" id="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close">X</a>
+                    
+                    <form id="form">
+                        <legend>Enter your details</legend>
+                        <label for="name">First Name:</label>
+                        <input type="text" id="name" name="name" class="name">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" id="lastname" name="lastname" class="lastname">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="email">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" class="phone" pattern="[0-9]{4}[0-9]{3}[0-9]{4}">
+                        <div class="Form__checkbox">
+                            <input type="checkbox" id="agreement" name="agreement" class="agreement" checked>
+                            <label for="agreement">I agree to the processing of personal data</label>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                    
+                </div>
+                    
+            </div>
+        </div> 
+        <script src="mixology.js"></script>
+    </body>
+</html>
